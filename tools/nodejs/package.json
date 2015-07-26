@@ -1,0 +1,10 @@
+{
+  "name": "MLD",
+  "namelower": "mld",
+  "version": "1.0.0",
+  "description": "MLD POC",
+  "devDependencies": {
+    "bower": "~1.4.1",
+    "grunt": "~0.4.5"
+  }
+}
