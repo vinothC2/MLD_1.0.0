@@ -16,4 +16,11 @@
 .yo-rc.json
 Gruntfile.js
 bower.json
-package.json
+package.json/.bowerrc
+/.editorconfig
+/.gitattributes
+/.jshintrc
+/.yo-rc.json
+/Gruntfile.js
+/bower.json
+/package.json
