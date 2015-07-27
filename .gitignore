@@ -8,3 +8,12 @@
 /test
 /tools
 /.git
+.bowerrc
+.editorconfig
+.gitattributes
+.gitignore
+.jshintrc
+.yo-rc.json
+Gruntfile.js
+bower.json
+package.json
