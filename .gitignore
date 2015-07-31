@@ -1,0 +1,8 @@
+/.git
+/.metadata
+/.tmp
+/bower_components
+/client_dev_env_prep
+/node_modules
+/tools
+/README.md
