@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('mld100App', [])
+  .module('mld100App', ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
