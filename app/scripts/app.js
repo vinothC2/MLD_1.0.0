@@ -9,16 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('mld100App', [
-    'ngAnimate',
-    'ngAria',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
+  .module('mld100App', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
