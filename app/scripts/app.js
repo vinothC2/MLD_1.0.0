@@ -2,25 +2,20 @@
 
 /**
  * @ngdoc overview
- * @name mld100App
+ * @name mldApp
  * @description
- * # mld100App
+ * # mldApp
  *
  * Main module of the application.
  */
 angular
-  .module('mld100App', ['ngRoute'])
+  .module('mldApp', ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
       })
       .otherwise({
         redirectTo: '/'

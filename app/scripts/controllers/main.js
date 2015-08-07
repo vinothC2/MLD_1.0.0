@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name mld100App.controller:MainCtrl
+ * @name mldApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the mld100App
+ * Controller of the mldApp
  */
-angular.module('mld100App')
+angular.module('mldApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
