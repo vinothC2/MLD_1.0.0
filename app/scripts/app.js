@@ -9,15 +9,16 @@
  * Main module of the application.
  */
 angular
-  .module('mldApp', ['ngRoute'])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+  .module('mldApp', ['ui.router'])
+  .config(function ($stateProvider, $urlRouterProvider) {
+  
+	$urlRouterProvider.otherwise('login');
+  
+	 $stateProvider
+        .state('login', {
+            url: '/',
+            templateUrl: 'views/main.html',
+			controller: 'MainCtrl',
+			controllerAs: 'main'
+        });
   });
