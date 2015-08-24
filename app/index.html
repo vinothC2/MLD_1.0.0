@@ -13,7 +13,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="styles/loginForm.css">
     <!-- endbuild -->
 	
@@ -41,31 +41,31 @@
 	<script src="scripts/directives/LanguageSelectDirective.js"></script>
 	<!-- endbuild -->
   </head>
-  <body ng-app="mldApp">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12"><div class="header"></div></div><div ng-translate-language-select></div>
+	<body ng-app="mldApp">
+		<!--[if lte IE 8]>
+		  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="container-fluid">
+			<div class="row header">
+				<div ng-translate-language-select></div>
+			</div>
+			<div class="row content">
+				<div class="col-sm-12 contentView" ui-view=""></div>
+			</div>
+			<div class="row footer">
+				<div class="leftPara col-sm-6">{{'views.index.footer.appversion' | translate}}1.0</div>
+				<div class="rightPara col-sm-6">{{'views.index.footer.company' | translate}}</div>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12"><div ui-view=""></div></div>
-		</div>
-		<div class="row footer">
-			<div class="leftPara col-sm-6">{{'views.index.footer.appversion' | translate}}1.0</div>
-			<div class="rightPara col-sm-6">{{'views.index.footer.company' | translate}}</div>
-		</div>
-	</div>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <!--<script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+		<!--<script>
+		   !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+		   (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+		   r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+		   }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>-->
+		   ga('create', 'UA-XXXXX-X');
+		   ga('send', 'pageview');
+		</script>-->
 	</body>
 </html>
