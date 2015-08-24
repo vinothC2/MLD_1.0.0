@@ -1,0 +1,9 @@
+{
+    "views.main.LoginToYourAccount": "Login to your account",
+	"views.main.username": "User name",
+	"views.main.password": "Password",
+	"views.main.login": "Login",
+	"views.index.footer.company": "XXX Pvt. Limited., © All Right Reserved.",
+	"views.index.footer.appversion": "MLD V",
+    "directives.language-select.Language": "Language"
+}

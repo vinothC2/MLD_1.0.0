@@ -1,0 +1,9 @@
+{
+    "views.main.LoginToYourAccount": "Mag-login sa iyong account",
+	"views.main.username": "Palayaw",
+	"views.main.password": "Password",
+	"views.main.login": "Login",
+	"views.index.footer.company": "XXX Pvt. Limited., © Lahat ng Karapatan.",
+	"views.index.footer.appversion": "MLD V",
+    "directives.language-select.Language": "wika"
+}
