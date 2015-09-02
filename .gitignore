@@ -12,3 +12,9 @@
 /app/favicon.ico
 /app/images/logo.jpg
 /app/images/Login.jpg
+/server/node_modules
+/server/path.properties
+/server/install_new_dependancies.bat
+/server/remove_node_module.bat
+/server/set_env.bat
+/server/startServer.bat

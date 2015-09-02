@@ -1,5 +1,8 @@
-html, body, .container-fluid , .contentView{
-	height:100%;
+html,body,.container,.fullHeight {
+	height: 100%;
+}
+
+html,body,.container,.fullWidth {
 	width: 100%;
 }
 
@@ -12,51 +15,28 @@ html, body, .container-fluid , .contentView{
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-top: 0.5%;
-  background: url('../images/logo.jpg') no-repeat left;
-  height: 10%;
-  width: 100%;
   position: relative;
+  border-bottom: 1px solid #e5e5e5;
+  top:0;
+}
+
+.logo {
+	background: url('../images/logo.jpg') no-repeat left;
 }
 
 .content {
-	height: 80%;
 	width: 100%;
-	position: relative;
+	height:80%;
 }
 
 /* Custom page footer */
 .footer {
-  padding-top: 1%;
-  color: #777;
-  border-top: 5px solid #e5e5e5;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 8%;
-}
-
-.loginContainer {
-	background: url('../images/Login.jpg') no-repeat;
-	background-size: cover;
-	height: 100%;
-	position: relative;
-	
-	-moz-animation-name: dropHeader;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-timing-function: ease-in;
-    -moz-animation-duration: 1.5s;
-
-    -webkit-animation-name: dropHeader;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 1.5s;
-
-    animation-name: dropHeader;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1.5s;
+  /* Set the minimum height of the footer here */
+  min-height: 5px;
+  background-color: rgb(238, 238, 238);
 }
 
 .rightPara, .language-select {

@@ -1,41 +1,26 @@
-/* Form Module */
-.form-module {
-	margin-top: 35%;
-	margin-left: 15%;
-    background: #ffffff;
-    border-top: 5px solid #33b5e5;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-	width: 100%;
+.loginContainer {
+	background: url('../images/Login.jpg') no-repeat;
+	background-size: cover;
+	
+	-moz-animation-name: dropHeader;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 1.5s;
+
+    -webkit-animation-name: dropHeader;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 1.5s;
+
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
 }
 
-.form-module .form {
-    padding: 10%;
-	width: 100%;
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
 }
 
-.form-module h2 {
-    color: #33b5e5;
-    font-size: 18px;
-}
-.form-module input {
-    width: 100%;
-    border: 1px solid #d9d9d9;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-}
-.form-module input:focus {
-    border: 1px solid #33b5e5;
-    color: #333333;
-}
-.form-module button {
-    cursor: pointer;
-    background: #33b5e5;
-    width: 100%;
-    border: 0;
-    color: #ffffff;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-}
-.form-module button:hover {
-    background: #178ab4;
-}
+.form-group.last { margin-bottom:0px; }
