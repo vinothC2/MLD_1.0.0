@@ -18,3 +18,4 @@
 /server/remove_node_module.bat
 /server/set_env.bat
 /server/startServer.bat
+/.project
